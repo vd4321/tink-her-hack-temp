@@ -1,28 +1,28 @@
-<p align="center">
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/da921ffe-59a8-4bec-9cd8-b37f9b6e3746" /><p align="center">
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [SpotLens] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [IGNITE]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Irene Sijo] - [College of Engineering Trivandrum]
+- Member 2: [Vidya Anand] - [College of Engineering Trivandrum]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[SpotLens is a real-time photography location discovery platform built for photographers to find, filter, and explore the best shooting spots worldwide.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Photographers struggle to find the right locations with the right conditions at the right time, as no existing platform provides photography-specific filters like shot type, golden hour timing, crowd levels, and access difficulty in one place — SpotLens solves this with a real-time, map-based discovery platform built specifically for photographers.]
 
 ### The Solution
-[How are you solving it?]
+[SpotLens puts all photography locations on one map with filters like best time, crowd level, and shot type — so instead of spending hours researching blogs and Google Maps, a photographer can find the perfect spot in seconds]
 
 ---
 
@@ -31,25 +31,20 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
+- Languages used: [TypeScript,HTML/CSS]
+- Frameworks used: [React 18,Next.js 14]
+- Libraries used: [leaflet,react-leaflet,Firebase SDK]
+- Tools used: [VSCode,Firebase Firestore,OpenStreetMap,npm,git]
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1:  [Real-Time Map — Photography spots are displayed as color-coded pins on an interactive map that updates instantly when data changes in Firebase.]
+- Feature 2: [Smart Filters — Filter spots by shot type, vibe, crowd level, access difficulty, and best hour of day — all 6 filters work simultaneously.]
+- Feature 3: [Smart Search — Search by name, location, or type and the map automatically flies to the matching spot.]
+- Feature 4: [Spot Details — Click any pin to see the full details including rating, crowd level, best shooting hour, and a pro photographer tip for that specific location.]
+
+
 
 ---
 
@@ -58,23 +53,9 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
+[npx create-next-app@latest photo-map]
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
+[npm run dev]
 ---
 
 ## Project Documentation
@@ -83,14 +64,17 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/77f3d30d-0371-4d82-ba47-d20cba85f7dc" />
+](SpotLens Initial view)
+*Shows the entire map with spots*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d7615473-1a24-4d27-b0f2-c5f05df5d734" />
+](SpotLens search option)
+*When the spot searched for has found its match, then it will display the place with its features*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e8dc0b18-80cf-4e3d-9a45-487565150066" />
+](SpotLens Sorted Locations)
+*Filters locations based on features*
 
 #### Diagrams
 
@@ -105,32 +89,6 @@ List the key features of your project:
 *Add caption explaining your workflow*
 
 ---
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
-
 ## Additional Documentation
 
 ### For Web Projects with Backend:
